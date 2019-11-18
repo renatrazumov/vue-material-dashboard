@@ -4,125 +4,61 @@
       <div class="md-layout-item">
         <md-card>
           <md-card-header data-background-color="green">
-            <h4 class="title">Material Dashboard Heading</h4>
-            <p class="category">Created using Roboto Font Family</p>
+            <h4 class="title">Electric Vehicle Experience Score</h4>
+            <p class="category">Created using Transportation Protcol</p>
           </md-card-header>
           <md-card-content>
             <div id="typography">
               <div class="title">
-                <h2>Typography</h2>
+                <h2>EVXS - Transportation Protocol</h2>
               </div>
               <div class="row">
-                <div class="tim-typo">
-                  <h1>
-                    <span class="tim-note">Header 1</span>The Life of Material
-                    Dashboard
-                  </h1>
-                </div>
-                <div class="tim-typo">
-                  <h2>
-                    <span class="tim-note">Header 2</span>The life of Material
-                    Dashboard
-                  </h2>
-                </div>
-                <div class="tim-typo">
-                  <h3>
-                    <span class="tim-note">Header 3</span>The life of Material
-                    Dashboard
-                  </h3>
-                </div>
-                <div class="tim-typo">
-                  <h4>
-                    <span class="tim-note">Header 4</span>The life of Material
-                    Dashboard
-                  </h4>
-                </div>
-                <div class="tim-typo">
-                  <h5>
-                    <span class="tim-note">Header 5</span>The life of Material
-                    Dashboard
-                  </h5>
-                </div>
-                <div class="tim-typo">
-                  <h6>
-                    <span class="tim-note">Header 6</span>The life of Material
-                    Dashboard
-                  </h6>
-                </div>
-                <div class="tim-typo">
+                <div class="body">
                   <p>
-                    <span class="tim-note">Paragraph</span>
-                    I will be the leader of a company that ends up being worth
-                    billions of dollars, because I got the answers. I understand
-                    culture. I am the nucleus. I think that’s a responsibility
-                    that I have, to push possibilities, to show people, this is
-                    the level that things could be at.
+                    <h3><span class="body">What is the EVXS - Transportation Protocol?</span></h3>
+                    - Dynamically calculate the best electric charging station from current location.
+                    - Display maps view, including map markers overlays with 10 km radius.
                   </p>
                 </div>
-                <div class="tim-typo">
-                  <span class="tim-note">Quote</span>
-                  <blockquote>
-                    <p>
-                      I will be the leader of a company that ends up being worth
-                      billions of dollars, because I got the answers. I
-                      understand culture. I am the nucleus. I think that’s a
-                      responsibility that I have, to push possibilities, to show
-                      people, this is the level that things could be at.
-                    </p>
-                    <small>
-                      Kanye West, Musician
-                    </small>
-                  </blockquote>
-                </div>
-                <div class="tim-typo">
-                  <span class="tim-note">Muted Text</span>
-                  <p class="text-muted">
-                    I will be the leader of a company that ends up being worth
-                    billions of dollars, because I got the answers...
+                <div class="body">
+                  <p>
+                    <h3><span class="body">How does the EVXS - Transportation Protocol work?</span></h3>
+                    - EVXS provides a system of scoring search results from HERE location services based upon the following
                   </p>
                 </div>
-                <div class="tim-typo">
-                  <span class="tim-note">Primary Text</span>
-                  <p class="text-primary">
-                    I will be the leader of a company that ends up being worth
-                    billions of dollars, because I got the answers...
+                <div class="body">
+                  <span class="body"></span>
+                    <p>- Search results sorted by distance proximity from current location to routed locations</p>
+                    <p>- Result returns list of electric charging stations by order of proximity to current location</p>
+                    <p>- Generate route between two locations and plotting coordinate markers on the map from current location within 10km.</p>
+                    <p>- Parse JSON request from HERE Places API by proximity, from current location.</p>
+                    <p>- Parse data from IoT enabled vehicles to get battery life percentage.</p>
+                    <p>- Display maps view, including map markers overlays with 10 km radius.</p>
+                </div>
+                <div class="body">
+                  <p>
+                    <h3><span class="body">The Problem: “Range Anxiety” “Time Saved” “Reduced Carbon Footprint”</span></h3>
+                    - Focus: In-Car Experience, Holistic Efficiency, Retail, Driver Time Saved
                   </p>
                 </div>
-                <div class="tim-typo">
-                  <span class="tim-note">Info Text</span>
-                  <p class="text-info">
-                    I will be the leader of a company that ends up being worth
-                    billions of dollars, because I got the answers...
-                  </p>
+                <div class="body">
+                  <span class="body"></span>
+                    <p>- For each hour of charging current EVs get approx 20-30 miles of range.</p>
+                    <p>- Battery Range, Fuel Costs / Charge Cost, Duration of Charge Time.</p>
+                    <p>- Routing your journey is key to enjoying the EV experience.</p>
+                    <p>- EV Charging may take many hours - long distance trips require multiple charges.</p>
                 </div>
-                <div class="tim-typo">
-                  <span class="tim-note">Success Text</span>
-                  <p class="text-success">
-                    I will be the leader of a company that ends up being worth
-                    billions of dollars, because I got the answers...
+                <div class="body">
+                  <p>
+                    <h3><span class="body">Our Solution: EVX SCORE</span></h3>
+                    <p>- Select the best route to the EV Charger - charging takes hours - plan accordingly with EVX score.
+                    <p>- Scenario: EV operator is traveling I-5 “Electric Highway” for an 1,121 Mile Trip from LA to Portland.
+                    <p>- “Alexa - What is the most efficient place (EVX score) to charge & park”
+                    <p>- “Alexa - Show me a map of EV Chargers within a 10 km radius”
+                    <p>- EVX Score is based on the following criteria:
+                    <p>- Distance from location to routed destination
+                    <p>- Distance from charger to charger
                   </p>
-                </div>
-                <div class="tim-typo">
-                  <span class="tim-note">Warning Text</span>
-                  <p class="text-warning">
-                    I will be the leader of a company that ends up being worth
-                    billions of dollars, because I got the answers...
-                  </p>
-                </div>
-                <div class="tim-typo">
-                  <span class="tim-note">Danger Text</span>
-                  <p class="text-danger">
-                    I will be the leader of a company that ends up being worth
-                    billions of dollars, because I got the answers...
-                  </p>
-                </div>
-                <div class="tim-typo">
-                  <h2>
-                    <span class="tim-note">Small Tag</span>
-                    Header with small subtitle
-                    <br />
-                    <small>Use "small" tag for the headers</small>
-                  </h2>
                 </div>
               </div>
             </div>

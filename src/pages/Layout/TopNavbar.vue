@@ -61,15 +61,12 @@
                       data-toggle="dropdown"
                     >
                       <md-icon>notifications</md-icon>
-                      <span class="notification">5</span>
+                      <span class="notification">2</span>
                       <p class="hidden-lg hidden-md">Notifications</p>
                     </md-button>
                     <ul class="dropdown-menu dropdown-menu-right">
-                      <li><a href="#">Mike John responded to your email</a></li>
-                      <li><a href="#">You have 5 new tasks</a></li>
-                      <li><a href="#">You're now friend with Andrew</a></li>
-                      <li><a href="#">Another Notification</a></li>
-                      <li><a href="#">Another One</a></li>
+                      <li><a href="#">Welcome to Mobility!</a></li>
+                      <li><a href="#">Transportation Protocol</a></li>
                     </ul>
                   </drop-down>
                 </div>
@@ -93,14 +90,8 @@ export default {
     return {
       selectedEmployee: null,
       employees: [
-        "Jim Halpert",
-        "Dwight Schrute",
-        "Michael Scott",
-        "Pam Beesly",
-        "Angela Martin",
-        "Kelly Kapoor",
-        "Ryan Howard",
-        "Kevin Malone"
+        "Electric Vehicle Charging Station",
+        "Display HERE Maps",
       ]
     };
   },

@@ -20,11 +20,9 @@
           <p>Notifications</p>
         </a>
         <ul class="dropdown-menu dropdown-menu-right">
-          <li><a href="#">Mike John responded to your email</a></li>
-          <li><a href="#">You have 5 new tasks</a></li>
-          <li><a href="#">You're now friend with Andrew</a></li>
-          <li><a href="#">Another Notification</a></li>
-          <li><a href="#">Another One</a></li>
+          <li><a href="#">Transportation Protocol Activated.</a></li>
+          <li><a href="#">Search for Electric Charging Stations.</a></li>
+          <li><a href="#">View Electric Vehicle Statistics.</a></li>
         </ul>
       </drop-down>
     </li>
@@ -43,14 +41,9 @@ export default {
       search: null,
       selectedEmployee: null,
       employees: [
-        "Jim Halpert",
-        "Dwight Schrute",
-        "Michael Scott",
-        "Pam Beesly",
-        "Angela Martin",
-        "Kelly Kapoor",
-        "Ryan Howard",
-        "Kevin Malone"
+        "Find Maps",
+        "Alexa Search - Navigation",
+        "Display HERE Maps",
       ]
     };
   }

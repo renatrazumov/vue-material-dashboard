@@ -11,19 +11,19 @@
           data-background-color="blue"
         >
           <template slot="content">
-            <h4 class="title">Daily Sales</h4>
+            <h4 class="title">Percentage of Electric Vehicles on the Road</h4>
             <p class="category">
               <span class="text-success"
-                ><i class="fas fa-long-arrow-alt-up"></i> 55%
+                ><i class="fas fa-long-arrow-alt-up"></i> 64%
               </span>
-              increase in today sales.
+              global yearly increase in sales.
             </p>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>access_time</md-icon>
-              updated 4 minutes ago
+              updated 5 minutes ago
             </div>
           </template>
         </chart-card>
@@ -36,10 +36,10 @@
           :chart-options="emailsSubscriptionChart.options"
           :chart-responsive-options="emailsSubscriptionChart.responsiveOptions"
           :chart-type="'Bar'"
-          data-background-color="red"
+          data-background-color="green"
         >
           <template slot="content">
-            <h4 class="title">Email Subscription</h4>
+            <h4 class="title">Increase of Production of Electric Vehicles</h4>
             <p class="category">
               Last Campaign Performance
             </p>
@@ -48,7 +48,7 @@
           <template slot="footer">
             <div class="stats">
               <md-icon>access_time</md-icon>
-              updated 10 days ago
+              updated 5 hours ago
             </div>
           </template>
         </chart-card>
@@ -60,19 +60,19 @@
           :chart-data="dataCompletedTasksChart.data"
           :chart-options="dataCompletedTasksChart.options"
           :chart-type="'Line'"
-          data-background-color="green"
+          data-background-color="blue"
         >
           <template slot="content">
-            <h4 class="title">Completed Tasks</h4>
+            <h4 class="title">Average Charge Time for Electric Vehicles</h4>
             <p class="category">
-              Last Campaign Performance
+              Tesla Supercharger Station
             </p>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>access_time</md-icon>
-              campaign sent 26 minutes ago
+              updated at 35 minutes ago
             </div>
           </template>
         </chart-card>
@@ -86,8 +86,8 @@
           </template>
 
           <template slot="content">
-            <p class="category">Revenue</p>
-            <h3 class="title">$34,245</h3>
+            <p class="category">Cost of Average Electric Vehicle</p>
+            <h3 class="title">$55,600</h3>
           </template>
 
           <template slot="footer">
@@ -107,59 +107,17 @@
           </template>
 
           <template slot="content">
-            <p class="category">Used Space</p>
+            <p class="category">Battery Range</p>
             <h3 class="title">
-              49/50
-              <small>GB</small>
+              300
+              <small>miles</small>
             </h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon class="text-danger">warning</md-icon>
-              <a href="#pablo">Get More Space...</a>
-            </div>
-          </template>
-        </stats-card>
-      </div>
-      <div
-        class="md-layout-item md-medium-size-50 md-xsmall-size-100 md-size-25"
-      >
-        <stats-card data-background-color="red">
-          <template slot="header">
-            <md-icon>info_outline</md-icon>
-          </template>
-
-          <template slot="content">
-            <p class="category">Fixed Issues</p>
-            <h3 class="title">75</h3>
-          </template>
-
-          <template slot="footer">
-            <div class="stats">
-              <md-icon>local_offer</md-icon>
-              Tracked from Github
-            </div>
-          </template>
-        </stats-card>
-      </div>
-      <div
-        class="md-layout-item md-medium-size-50 md-xsmall-size-100 md-size-25"
-      >
-        <stats-card data-background-color="blue">
-          <template slot="header">
-            <i class="fab fa-twitter"></i>
-          </template>
-
-          <template slot="content">
-            <p class="category">Folowers</p>
-            <h3 class="title">+245</h3>
-          </template>
-
-          <template slot="footer">
-            <div class="stats">
-              <md-icon>update</md-icon>
-              Just Updated
+              <a href="#pablo">Get More Range...</a>
             </div>
           </template>
         </stats-card>
@@ -169,8 +127,8 @@
       >
         <md-card>
           <md-card-header data-background-color="orange">
-            <h4 class="title">Employees Stats</h4>
-            <p class="category">New employees on 15th September, 2016</p>
+            <h4 class="title">Electric Vehicle Stats</h4>
+            <p class="category">November 18th, 2019</p>
           </md-card-header>
           <md-card-content>
             <ordered-table table-header-color="orange"></ordered-table>
@@ -224,8 +182,8 @@ export default {
     return {
       dailySalesChart: {
         data: {
-          labels: ["M", "T", "W", "T", "F", "S", "S"],
-          series: [[12, 17, 7, 17, 23, 18, 38]]
+          labels: ["Ja", "Fe", "Ma", "Ap", "Ma", "Ju", "Ju", "Au", "Se", "Oc", "No", "De"],
+          series: [[28, 29, 30, 29, 32, 34, 36, 37, 36, 42, 43, 44]]
         },
         options: {
           lineSmooth: this.$Chartist.Interpolation.cardinal({
@@ -244,7 +202,7 @@ export default {
       dataCompletedTasksChart: {
         data: {
           labels: ["12am", "3pm", "6pm", "9pm", "12pm", "3am", "6am", "9am"],
-          series: [[230, 750, 450, 300, 280, 240, 200, 190]]
+          series: [[300, 320, 450, 360, 270, 170, 130, 400]]
         },
 
         options: {
@@ -268,7 +226,7 @@ export default {
             "Fe",
             "Ma",
             "Ap",
-            "Mai",
+            "Ma",
             "Ju",
             "Jul",
             "Au",
@@ -277,7 +235,7 @@ export default {
             "No",
             "De"
           ],
-          series: [[542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]]
+          series: [[542, 543, 520, 580, 553, 593, 626, 634, 668, 710, 756, 795]]
         },
         options: {
           axisX: {
